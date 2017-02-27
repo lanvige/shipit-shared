@@ -1,7 +1,7 @@
 {
-  "name": "shipit-shared",
-  "version": "4.4.2",
-  "description": "Symlink unsourced files and directories, like Capistrano.",
+  "name": "shipit-shared-copy",
+  "version": "0.1.0",
+  "description": "Copy unsourced files and directories, for Docker build.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timkelty/shipit-shared/issues"
+    "url": "https://github.com/lanvige/shipit-shared-copy/issues"
   },
-  "homepage": "https://github.com/timkelty/shipit-shared",
+  "homepage": "https://github.com/lanvige/shipit-shared-copy",
   "devDependencies": {
     "chai": "^3.0.0",
     "mocha": "^2.1.0",
@@ -45,9 +45,5 @@
     "shipit-deploy": "^2.1.2",
     "shipit-utils": "^1.0.2",
     "sprintf-js": "^1.0.2"
-  },
-  "gitHead": "9ce856f7351cb5f33f4c4f742d82cf5dcfba5032",
-  "_id": "shipit-shared@1.0.0",
-  "_shasum": "311a7992a787f77db2e48c09119bdce043ac8df2",
-  "_from": "shipit-shared@>=1.0.0 <2.0.0"
+  }
 }

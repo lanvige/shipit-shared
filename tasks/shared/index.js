@@ -9,11 +9,11 @@ module.exports = function(gruntOrShipit) {
   var shipit = utils.getShipit(gruntOrShipit);
   require('./create-dirs')(gruntOrShipit);
   require('./set-permissions')(gruntOrShipit);
-  require('./link')(gruntOrShipit);
+  require('./copy')(gruntOrShipit);
 
   utils.registerTask(gruntOrShipit, 'shared', [
     'shared:prepare',
-    'shared:link',
+    'shared:copy',
     'shared:end',
   ]);
 

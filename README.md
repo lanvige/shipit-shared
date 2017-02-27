@@ -1,4 +1,4 @@
-# shipit-shared
+# shipit-shared-copy
 
 [![Build Status](https://travis-ci.org/timkelty/shipit-shared.svg)](https://travis-ci.org/timkelty/shipit-shared)
 [![Dependency Status](https://david-dm.org/timkelty/shipit-shared.svg)](https://david-dm.org/timkelty/shipit-shared)
